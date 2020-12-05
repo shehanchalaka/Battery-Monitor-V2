@@ -27,12 +27,12 @@ bool Device::begin()
 
     if (cardType == CARD_NONE)
     {
-        Serial.println(F("Card: Failed"));
+        Serial.println(F("SD Card: Failed"));
         result = false;
     }
     else
     {
-        Serial.println(F("Card: Ok"));
+        Serial.println(F("SD Card: Ok"));
     }
 
     if (!ina260.begin(0x41))

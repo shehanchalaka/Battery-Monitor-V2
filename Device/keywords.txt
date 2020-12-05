@@ -1,0 +1,39 @@
+  
+#######################################
+# Syntax Coloring Map For Accelerometer ADXL345
+#######################################
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Device	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+appendFile	KEYWORD2
+logSensors	KEYWORD2
+readVoltage	KEYWORD2
+readCurrent	KEYWORD2
+readPower	KEYWORD2
+readTemperature	KEYWORD2
+readHumidity	KEYWORD2
+connectBattery	KEYWORD2
+disconnectBattery	KEYWORD2
+setChargingVoltage	KEYWORD2
+setChargingCurrent	KEYWORD2
+setDischargeCurrent	KEYWORD2
+setWiper	KEYWORD2
+errorBlink	KEYWORD2
+successBlink	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DISCONNECTED	LITERAL1
+CHARGING_CV	LITERAL1
+CHARGING_CC	LITERAL1
+DISCHARGING	LITERAL1
